@@ -11,6 +11,7 @@
 		E7BD273928CA3797007B8B49 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BD273828CA3797007B8B49 /* ContentView.swift */; };
 		E7BD273B28CA3798007B8B49 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BD273A28CA3798007B8B49 /* Assets.xcassets */; };
 		E7BD273E28CA3798007B8B49 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = E7BD273D28CA3798007B8B49 /* Preview Assets.xcassets */; };
+		E7BD274528CA42C4007B8B49 /* Formatters.swift in Sources */ = {isa = PBXBuildFile; fileRef = E7BD274428CA42C4007B8B49 /* Formatters.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -19,6 +20,7 @@
 		E7BD273828CA3797007B8B49 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
 		E7BD273A28CA3798007B8B49 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		E7BD273D28CA3798007B8B49 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		E7BD274428CA42C4007B8B49 /* Formatters.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Formatters.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -51,6 +53,7 @@
 		E7BD273528CA3797007B8B49 /* LengthConversion */ = {
 			isa = PBXGroup;
 			children = (
+				E7BD274428CA42C4007B8B49 /* Formatters.swift */,
 				E7BD273628CA3797007B8B49 /* LengthConversionApp.swift */,
 				E7BD273828CA3797007B8B49 /* ContentView.swift */,
 				E7BD273A28CA3798007B8B49 /* Assets.xcassets */,
@@ -137,6 +140,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E7BD274528CA42C4007B8B49 /* Formatters.swift in Sources */,
 				E7BD273928CA3797007B8B49 /* ContentView.swift in Sources */,
 				E7BD273728CA3797007B8B49 /* LengthConversionApp.swift in Sources */,
 			);
